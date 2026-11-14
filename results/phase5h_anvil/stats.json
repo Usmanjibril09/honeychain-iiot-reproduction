@@ -1,0 +1,91 @@
+{
+  "deployment": {
+    "deployer": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266",
+    "device_registry": "0x5FbDB2315678afecb367f032d93F642f64180aa3",
+    "chain_id": 31337
+  },
+  "per_label": {
+    "ALLOW": {
+      "n_total": 12,
+      "n_success": 12,
+      "n_skipped_abstain": 0,
+      "n_error": 0,
+      "gas_mean": 133935.33333333334,
+      "gas_std": 4936.877138312019,
+      "gas_p50": 132512.0,
+      "gas_p95": 140218.0,
+      "gas_min": 132500.0,
+      "gas_max": 149612.0,
+      "wall_mean_s": 0.11079919057616887,
+      "wall_std_s": 0.0023534903082052445,
+      "wall_p50_s": 0.11027597499196418,
+      "wall_p95_s": 0.1143452550881193
+    },
+    "HONEYPOT_A": {
+      "n_total": 12,
+      "n_success": 12,
+      "n_skipped_abstain": 0,
+      "n_error": 0,
+      "gas_mean": 141910.33333333334,
+      "gas_std": 9877.63246691813,
+      "gas_p50": 139060.0,
+      "gas_p95": 154465.99999999997,
+      "gas_min": 139032.0,
+      "gas_max": 173276.0,
+      "wall_mean_s": 0.11047075167152798,
+      "wall_std_s": 0.0015478758261416512,
+      "wall_p50_s": 0.1110899880004581,
+      "wall_p95_s": 0.11199520770896924
+    },
+    "HONEYPOT_B": {
+      "n_total": 12,
+      "n_success": 12,
+      "n_skipped_abstain": 0,
+      "n_error": 0,
+      "gas_mean": 140767.0,
+      "gas_std": 4940.761847768382,
+      "gas_p50": 139340.0,
+      "gas_p95": 147051.0,
+      "gas_min": 139324.0,
+      "gas_max": 156456.0,
+      "wall_mean_s": 0.109509274836455,
+      "wall_std_s": 0.0019568555891341655,
+      "wall_p50_s": 0.10989876101666596,
+      "wall_p95_s": 0.11176325824926607
+    },
+    "HONEYPOT_C": {
+      "n_total": 12,
+      "n_success": 12,
+      "n_skipped_abstain": 0,
+      "n_error": 0,
+      "gas_mean": 135102.0,
+      "gas_std": 4932.263651435589,
+      "gas_p50": 133676.0,
+      "gas_p95": 141376.59999999998,
+      "gas_min": 133652.0,
+      "gas_max": 150764.0,
+      "wall_mean_s": 0.10930444541736506,
+      "wall_std_s": 0.0016025567101246169,
+      "wall_p50_s": 0.10926562250824645,
+      "wall_p95_s": 0.1117660380419693
+    },
+    "ABSTAIN": {
+      "n_total": 12,
+      "n_success": 0,
+      "n_skipped_abstain": 12,
+      "n_error": 0,
+      "gas_mean": null,
+      "gas_std": 0.0,
+      "gas_p50": NaN,
+      "gas_p95": NaN,
+      "gas_min": null,
+      "gas_max": null,
+      "wall_mean_s": null,
+      "wall_std_s": 0.0,
+      "wall_p50_s": NaN,
+      "wall_p95_s": NaN
+    }
+  },
+  "total_gas": 6620576,
+  "n_transactions": 60
+}

@@ -1,0 +1,25 @@
+{
+  "gate_passes": true,
+  "baseline_macro_f1": 0.9428853137099296,
+  "best": {
+    "config": "seedstd_only",
+    "abstain_rate": 0.25,
+    "coverage": 0.7493333333333333,
+    "selective_macro_f1": 1.0,
+    "improvement": 0.05711468629007044,
+    "threshold_value": 0.0060661357225869385,
+    "signal": "seed_std",
+    "quantile": 0.75
+  },
+  "min_coverage": 0.7,
+  "improvement_threshold": 0.02,
+  "abstain_rule": "Abstain if combined score >= quantile(0.7500) of validation scores using config 'seedstd_only'",
+  "seeds_used": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "n_val": 375
+}

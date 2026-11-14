@@ -1,0 +1,42 @@
+{
+  "B5_myopic": {
+    "n_seeds": 5,
+    "n_episodes": 500,
+    "seed_mean": 23.49961704,
+    "seed_std": 16.538565678122563,
+    "episode_mean": 23.499617039999997,
+    "ci95_episode_level": [
+      21.186376257,
+      25.782756982000002
+    ],
+    "ci95_seed_level": [
+      2.964275455546794,
+      44.03495862445321
+    ],
+    "hsr": 0.5191256830601093,
+    "baits_per_detection": 1.2240802675585285,
+    "hdr_primary": 0.598,
+    "n_engaged": 366,
+    "n_detected": 299
+  },
+  "B7_full_dqn": {
+    "n_seeds": 5,
+    "n_episodes": 500,
+    "seed_mean": 5.38229212,
+    "seed_std": 4.695479146078553,
+    "episode_mean": 5.38229212,
+    "ci95_episode_level": [
+      4.085635465499999,
+      6.7196459495
+    ],
+    "ci95_seed_level": [
+      -0.44791529000229335,
+      11.212499530002294
+    ],
+    "hsr": 0.04672897196261682,
+    "baits_per_detection": 0.7192513368983957,
+    "hdr_primary": 0.748,
+    "n_engaged": 214,
+    "n_detected": 374
+  }
+}
