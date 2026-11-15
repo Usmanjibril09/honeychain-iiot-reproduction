@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "Cite this release when using the HoneyChain-IIoT evaluation artifact."
+title: "HoneyChain-IIoT evaluation artifact"
+version: 1.0.0
+type: software
+repository-code: "https://github.com/Usmanjibril09/honeychain-iiot-reproduction"
+authors:
+  - family-names: Wushishi
+    given-names: Usman J.
+  - family-names: Gan
+    given-names: Chenquan
+  - family-names: Li
+    given-names: Shuaiyong
+  - family-names: Hussain
+    given-names: Altaf
+  - family-names: Hussain
+    given-names: Nasir
+  - family-names: Khalid
+    given-names: Muhammad Imran
+  - family-names: Komal
+    given-names: Asma

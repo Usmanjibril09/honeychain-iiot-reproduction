@@ -1,0 +1,11 @@
+results/phase5e/train_reactive/eval_fresh_wallet/s0/episodes_malicious.jsonl 10 10 19.703083 19.703193
+results/phase5d/fresh_wallet/B7_full_dqn/s0/episodes_malicious.jsonl 10 10 19.703157 19.703193
+results/phase5e/train_reactive/eval_low_and_slow/s0/episodes_malicious.jsonl 10 10 29.050897 29.050798999999998
+results/phase5d/low_and_slow/B7_full_dqn/s0/episodes_malicious.jsonl 10 10 29.051019 29.050798999999998
+results/phase5e/train_reactive/eval_mimicry/s0/episodes_malicious.jsonl 10 10 -44.713066000000005 -44.713132
+results/phase5d/mimicry/B7_full_dqn/s0/episodes_malicious.jsonl 10 10 -44.713178 -44.713132
+results/phase5e/train_reactive/eval_perturbation/s0/episodes_malicious.jsonl 10 10 34.608249 34.608161
+results/phase5d/perturbation/B7_full_dqn/s0/episodes_malicious.jsonl 10 10 34.607931 34.608161
+results/phase5e/train_reactive/eval_reactive/s0/episodes_malicious.jsonl 10 10 19.703081 19.703165
+results/phase5e/train_reactive/eval_static_signature/s0/episodes_malicious.jsonl 10 10 19.647103 19.647083
+results/phase5d/static_signature/B7_full_dqn/s0/episodes_malicious.jsonl 10 10 19.647091 19.647083

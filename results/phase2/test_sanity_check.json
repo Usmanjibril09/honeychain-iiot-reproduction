@@ -1,0 +1,69 @@
+{
+  "generated_utc": "2026-10-17T15:34:19.221260+00:00",
+  "note": "One-shot sanity check on sealed test set using frozen validation-selected threshold.",
+  "frozen_gate": {
+    "config": "seedstd_only",
+    "abstain_rate": 0.25,
+    "coverage": 0.7493333333333333,
+    "selective_macro_f1": 1.0,
+    "improvement": 0.05711468629007044,
+    "threshold_value": 0.0060661357225869385,
+    "signal": "seed_std",
+    "quantile": 0.75
+  },
+  "frozen_threshold_value": 0.0060661357225861336,
+  "val_recomputed": {
+    "baseline_macro_f1": 0.9428853137099296,
+    "selective_macro_f1": 1.0,
+    "coverage": 0.7493333333333333
+  },
+  "test": {
+    "n": 377,
+    "baseline_macro_f1": 0.9371037704371038,
+    "selective_macro_f1": 0.979834644081468,
+    "coverage": 0.7957559681697612,
+    "n_kept": 300,
+    "n_abstain": 77,
+    "improvement": 0.04273087364436423,
+    "per_class_on_kept": {
+      "benign": {
+        "precision": 0.9922178988326849,
+        "recall": 0.99609375,
+        "f1": 0.9941520467836257,
+        "support": 256
+      },
+      "malicious": {
+        "precision": 0.9767441860465116,
+        "recall": 0.9545454545454546,
+        "f1": 0.9655172413793104,
+        "support": 44
+      }
+    }
+  },
+  "val_to_test_drift": {
+    "selective_f1": -0.02016535591853197,
+    "improvement": -0.014383812645706207
+  },
+  "verdict": "PASS \u2014 abstention gate generalizes to test set",
+  "extended_metrics": {
+    "val_full": {
+      "auroc": 0.9875337360236474,
+      "auprc": 0.9772732811853005,
+      "brier": 0.041710279611876046,
+      "ece": 0.045534503835795846
+    },
+    "test_full": {
+      "auroc": 0.9879045712379045,
+      "auprc": 0.9643466473538451,
+      "brier": 0.03316042266485592,
+      "ece": 0.030575196337104735
+    },
+    "test_retained": {
+      "auroc": 0.9951171875,
+      "auprc": 0.981796463826062,
+      "brier": 0.00965136783286897,
+      "ece": 0.003377294069984127,
+      "n_kept": 300
+    }
+  }
+}
