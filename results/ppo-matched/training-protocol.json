@@ -1,0 +1,125 @@
+{
+  "actual_steps_per_seed": 51200,
+  "runs": [
+    {
+      "seed": 0,
+      "ppo": {
+        "learning_rate": 0.0003,
+        "n_steps": 2048,
+        "batch_size": 64,
+        "n_epochs": 10,
+        "gamma": 0.99,
+        "gae_lambda": 0.95,
+        "clip_range": 0.2,
+        "ent_coef": 0.0,
+        "vf_coef": 0.5,
+        "max_grad_norm": 0.5,
+        "net_arch": [
+          128,
+          128
+        ]
+      },
+      "env": {
+        "obs_dim": 12,
+        "attacker_class": "reactive"
+      },
+      "total_timesteps": 50000
+    },
+    {
+      "seed": 1,
+      "ppo": {
+        "learning_rate": 0.0003,
+        "n_steps": 2048,
+        "batch_size": 64,
+        "n_epochs": 10,
+        "gamma": 0.99,
+        "gae_lambda": 0.95,
+        "clip_range": 0.2,
+        "ent_coef": 0.0,
+        "vf_coef": 0.5,
+        "max_grad_norm": 0.5,
+        "net_arch": [
+          128,
+          128
+        ]
+      },
+      "env": {
+        "obs_dim": 12,
+        "attacker_class": "reactive"
+      },
+      "total_timesteps": 50000
+    },
+    {
+      "seed": 2,
+      "ppo": {
+        "learning_rate": 0.0003,
+        "n_steps": 2048,
+        "batch_size": 64,
+        "n_epochs": 10,
+        "gamma": 0.99,
+        "gae_lambda": 0.95,
+        "clip_range": 0.2,
+        "ent_coef": 0.0,
+        "vf_coef": 0.5,
+        "max_grad_norm": 0.5,
+        "net_arch": [
+          128,
+          128
+        ]
+      },
+      "env": {
+        "obs_dim": 12,
+        "attacker_class": "reactive"
+      },
+      "total_timesteps": 50000
+    },
+    {
+      "seed": 3,
+      "ppo": {
+        "learning_rate": 0.0003,
+        "n_steps": 2048,
+        "batch_size": 64,
+        "n_epochs": 10,
+        "gamma": 0.99,
+        "gae_lambda": 0.95,
+        "clip_range": 0.2,
+        "ent_coef": 0.0,
+        "vf_coef": 0.5,
+        "max_grad_norm": 0.5,
+        "net_arch": [
+          128,
+          128
+        ]
+      },
+      "env": {
+        "obs_dim": 12,
+        "attacker_class": "reactive"
+      },
+      "total_timesteps": 50000
+    },
+    {
+      "seed": 4,
+      "ppo": {
+        "learning_rate": 0.0003,
+        "n_steps": 2048,
+        "batch_size": 64,
+        "n_epochs": 10,
+        "gamma": 0.99,
+        "gae_lambda": 0.95,
+        "clip_range": 0.2,
+        "ent_coef": 0.0,
+        "vf_coef": 0.5,
+        "max_grad_norm": 0.5,
+        "net_arch": [
+          128,
+          128
+        ]
+      },
+      "env": {
+        "obs_dim": 12,
+        "attacker_class": "reactive"
+      },
+      "total_timesteps": 50000
+    }
+  ]
+}

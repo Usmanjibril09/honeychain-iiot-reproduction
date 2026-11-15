@@ -3,7 +3,7 @@
 This public artifact supports verification of the corrected HoneyChain-IIoT
 manuscript. It provides the eight quantitative figures, saved evaluation
 records, and scripts that recompute the headline, signal-ablation, robustness,
-and transfer summaries. Figure 1 is the conceptual architecture and is separate
+transfer, and matched PPO summaries. Figure 1 is the conceptual architecture and is separate
 from the quantitative evaluation.
 
 ## Reproduce the figures
@@ -29,6 +29,7 @@ figure workflow.
 | Fig. 7 and overhead | Timing traces and aggregates in `results/phase5f/` |
 | Fig. 8 and chain measurements | Anvil and Sepolia gas and latency exports in `results/phase5h*/` |
 | Fig. 9 and cross-phase synthesis | Corrected headline, attacker-branch, overhead and deployment summaries |
+| Matched internal PPO comparison | Five PPO evaluation runs in `results/ppo-matched/` and the same five temporal Double-DQN runs in `results/b7-corrected/`. Run `python analysis/summarize_ppo.py` to reproduce `results/ppo-comparison.csv`. |
 | Learning-attacker evaluation | Malicious-only episode records and summary in `results/phase5d_adaptive/` |
 
 The corrected headline uses five controller seeds and 50 episodes per caller
