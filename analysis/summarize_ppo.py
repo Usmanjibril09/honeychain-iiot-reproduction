@@ -29,7 +29,7 @@ def main():
     fields = ("malicious_return", "benign_return", "pooled_return", "attack_exposure", "benign_exposure")
     writer = csv.writer(sys.stdout, lineterminator="\n")
     writer.writerow(["policy", *(f"{field}_{stat}" for field in fields for stat in ("mean", "sd"))])
-    for name, folder in (("PPO", "ppo-matched"), ("Temporal Double-DQN (B7)", "b7-corrected")):
+    for name, folder in (("PPO", "ppo-matched"), ("Temporal Double-DQN (B7)", "temporal-double-dqn")):
         writer.writerow([name, *(f"{value:.6f}" for value in summarize(ROOT / folder))])
 
 if __name__ == "__main__":

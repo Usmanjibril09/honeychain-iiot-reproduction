@@ -33,7 +33,7 @@ def summarize(groups):
 baseline = {}
 for policy in ("B4_classifier_gated","B5_myopic","B6_no_uncertainty","B7_full_dqn"):
     is_b7 = policy == "B7_full_dqn"
-    source = args.headline / ("b7-corrected" if is_b7 else "phase5b-corrected")
+    source = args.headline / ("temporal-double-dqn" if is_b7 else "policy-comparison")
     pattern = "s[0-2]/episodes_malicious.jsonl" if is_b7 else f"s[0-2]/{policy}/episodes_malicious.jsonl"
     baseline[policy] = float(episode_returns(source, pattern).mean())
 

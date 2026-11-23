@@ -1,0 +1,22 @@
+{
+  "n_malicious_eps": 50,
+  "n_benign_eps": 50,
+  "return_mean": 37.071677199999996,
+  "return_std": 15.118594827892707,
+  "return_ci95": [
+    32.549074605,
+    40.95071844499999
+  ],
+  "aer": 0.03605659516202647,
+  "ber": 0.03538083538083538,
+  "tiy": 1.58,
+  "time_to_engagement": 4.51063829787234,
+  "retention_depth": 43.82,
+  "gas_per_engagement": 289134.35443037975,
+  "deception_exposure_rate": 2.54,
+  "end_to_end_step_latency_ms": 40.14916816961691,
+  "policy": "PPO",
+  "seed": 4,
+  "ckpt": "runs/phase5i_ppo/s4/final.zip",
+  "elapsed_sec": 141.00739192962646
+}
