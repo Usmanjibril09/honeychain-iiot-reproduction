@@ -49,6 +49,6 @@ identifiers, and credentials are excluded.
 
 ## Revised figure exports and PPO evaluation
 
-The supplied [policy comparison](figures/manuscript/fig2_policy_comparison.pdf) and [signal ablation](figures/manuscript/fig3_signal_ablation.pdf) are under `figures/manuscript/`. The figure workflow above continues to generate the reproduction plots separately.
+The supplied [policy comparison](figures/manuscript/fig2_policy_comparison.pdf) and [signal ablation](figures/manuscript/fig3_signal_ablation.pdf) are under `figures/manuscript/`. The figure workflow above regenerates both revised plots from the bundled statistics and episode values in `results/figure-inputs/`. Font and rendering versions can affect output pixels.
 
 The five-seed standalone PPO evaluation is in `results/ppo-policy-evaluation/`. It is a separate run from `results/ppo-matched/`, which remains the source for the matched PPO comparison.

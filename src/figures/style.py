@@ -2,7 +2,7 @@
 
 All figures follow IEEE IoT Journal conventions:
 - 2x2 subplots labeled (a)-(d) in top-left of each panel.
-- DejaVu Sans 14-15 pt.
+- Times New Roman 14-15 pt.
 - Bar width <= 0.4, no pie charts.
 - Rich shading: CI bands, error bars, distribution overlays.
 - PNG (300 dpi) + PDF outputs with the same base name.
@@ -36,10 +36,10 @@ BAR_WIDTH = 0.35  # thin bars as requested
 def apply_style() -> None:
     """Apply global matplotlib style. Call once at start of each figure script."""
     mpl.rcParams.update({
-        "font.family": "DejaVu Sans",
-        "font.size":   16,
-        "axes.titlesize":  16,
-        "axes.labelsize":  16,
+        "font.family": "Times New Roman",
+        "font.size":   15,
+        "axes.titlesize":  15,
+        "axes.labelsize":  15,
         "xtick.labelsize": 14,
         "ytick.labelsize": 14,
         "legend.fontsize": 13,
