@@ -1,3 +1,4 @@
+# Pinned dependencies for the Python 3.11 reproduction environment.
 numpy==1.26.4
 scipy==1.17.1
 matplotlib==3.11.2

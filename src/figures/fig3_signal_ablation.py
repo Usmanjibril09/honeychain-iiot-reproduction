@@ -1,3 +1,4 @@
+# Manuscript Figure 3 uses the bundled signal ablation inputs.
 """Figure 3 - Signal ablation (Phase 5c).
 
 (a) Return distribution: violins per mask (300 episodes each = 3 seeds x 100),

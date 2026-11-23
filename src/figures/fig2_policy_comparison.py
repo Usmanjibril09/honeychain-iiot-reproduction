@@ -1,3 +1,4 @@
+# Manuscript Figure 2 uses the bundled policy comparison inputs.
 """Figure 2 - Headline policy comparison (Phase 5b).
 
 (a) Return distribution: violin per policy (500 episodes each = 5 seeds x 100),

@@ -1,3 +1,4 @@
+# Keep generated artifacts and local environment files out of Git.
 __pycache__/
 .venv/
 /figures/

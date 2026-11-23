@@ -1,4 +1,5 @@
 #!/bin/sh
+# Regenerate all eight figures from the bundled evaluation records.
 set -eu
 cd "$(dirname "$0")"
 export PYTHONHASHSEED=0 MPLBACKEND=Agg OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 MKL_NUM_THREADS=1
